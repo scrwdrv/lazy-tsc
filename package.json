@@ -1,0 +1,33 @@
+{
+  "name": "lazy-tsc",
+  "version": "1.0.1",
+  "description": "Run Typescript compiler in current working directory recursively.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "bin": {
+    "lazy-tsc": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrwdrv/lazy-tsc.git"
+  },
+  "keywords": [
+    "tsc",
+    "typescript",
+    "compiler",
+    "tsconfig"
+  ],
+  "preferGlobal": true,
+  "author": "scrwdrv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scrwdrv/lazy-tsc/issues"
+  },
+  "homepage": "https://github.com/scrwdrv/lazy-tsc#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.0"
+  }
+}
